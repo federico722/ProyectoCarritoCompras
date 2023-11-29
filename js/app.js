@@ -9,7 +9,7 @@ const modalContainer = document.getElementById("modal-container");
 const cantidadCarrito = document.getElementById("cantidadCarrito");
 
 
-let carrito=[];
+let carrito= JSON.parse(localStorage.getItem("carrito")) || [];
 
 
 productos.forEach((product)=>{
@@ -61,11 +61,19 @@ productos.forEach((product)=>{
             precio: product.precio,
             cantidad: product.cantidad,
         });
-    }
+    }    //esta parte va dentro del else 
         console.log(carrito);
         carritoCounter();
+        saveLocal();
     });
 });
 
 
-/*opciones que podria funcionar, crear una funcion que cuando se elimine un producto se reinicien las unidades   */
+/*set item */
+const saveLocal = ()=> {
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+};
+
+
+/*get item*/ 
+
