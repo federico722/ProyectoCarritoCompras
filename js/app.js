@@ -17,9 +17,9 @@ productos.forEach((product)=>{
     let formattedPrecio = product.precio.toLocaleString();
     content.className = "card";
     content.innerHTML = `
-        <h3>${product.nombre}</h3>
+        <h3 class="padding-h3">${product.nombre}</h3>
         <img src="${product.img}">
-        <p>${product.descripcion}</p>
+        <p class="padding-p">${product.descripcion}</p>
         <p class="price">COP ${formattedPrecio}</p>
         <p>Unidades Disponibles:${product.disponibles}</p> 
     `;
@@ -40,8 +40,15 @@ productos.forEach((product)=>{
     if (repeat) {
         carrito.map((prod) => {
             if(prod.id === product.id){
-                
+                if (prod.cantidad < product.disponibles) {
+                    
                     prod.cantidad++;
+                    
+                    prod.disponibles= prod.disponibles - 1;
+                }else{
+                    alert("Producto agotado!!!")
+                }
+                    
                 
             }
         });
@@ -50,6 +57,7 @@ productos.forEach((product)=>{
             id : product.id,
             img: product.img,
             nombre: product.nombre,
+            disponibles:product.disponibles -1,  //se agrego disponibles
             precio: product.precio,
             cantidad: product.cantidad,
         });

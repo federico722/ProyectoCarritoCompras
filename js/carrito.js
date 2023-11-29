@@ -27,11 +27,12 @@ const pintarCarrito = ()=> {
         carritoContent.innerHTML = `
         <img src="${product.img}">
         <h3>${product.nombre}</h3>
+        <p>Disponibles:${product.disponibles}<p>  
         <p>COP ${formattedPrecio} </p>
         <p>Cantidad: ${product.cantidad}</p>
         <p>Total: ${formattedTotal}</p>
         `; 
-
+//se agrego product.disponibles
         modalContainer.append(carritoContent);
 
         let eliminar = document.createElement("span");
@@ -47,7 +48,7 @@ const pintarCarrito = ()=> {
 
     const totalBuying = document.createElement("div");
     totalBuying.className = "total-content";
-    totalBuying.innerHTML = `Total a Pagar: COP ${formattedPrecio},00`;
+    totalBuying.innerHTML = `total a pagar: COP ${formattedPrecio},00`;
     modalContainer.append(totalBuying);
     };
 
