@@ -299,4 +299,95 @@ const productos =[
         cantidad: 1,
         disponibles: 3,
     },
+    {
+        id: 31,
+        nombre: "Microondas Shine",
+        precio: 419900,
+        descripcion: "Microondas Shine Con Dorador Con Esmalte Ceramico, 23L ",
+        img:
+            "https://http2.mlstatic.com/D_NQ_NP_775551-MLU72700361307_112023-O.webp",
+        cantidad: 1,
+        disponibles: 20,
+    },
+    {
+        id: 32,
+        nombre: "Microondas Soft1",
+        precio: 349900,
+        descripcion: "Microondas Soft1 Convencional Con Modo Eco, 23L",
+        img:
+            "https://http2.mlstatic.com/D_NQ_NP_695454-MLU71686761086_092023-O.webp",
+        cantidad: 1,
+        disponibles: 10,
+    },
+    {
+        id: 33,
+        nombre: "Microondas Ms32j ",
+        precio: 474900,
+        descripcion: "Microondas Ms32j Black Sin Dorador Capacidad: 1.1 ",
+        img:
+            "https://http2.mlstatic.com/D_NQ_NP_762929-MLU72700918949_112023-O.webp",
+        cantidad: 1,
+        disponibles: 5,
+    },
+    {
+        id: 34,
+        nombre: "Estufa A Gas",
+        precio: 869900,
+        descripcion: "Estufa A Gas 4 Puestos Challenger Tipo de Conexion a Gas Natural",
+        img:
+            "https://http2.mlstatic.com/D_NQ_NP_713713-MCO53146500821_012023-O.webp",
+        cantidad: 1,
+        disponibles: 15,
+    },
+    {
+        id: 35,
+        nombre: "Nevera Whirlpool",
+        precio: 6199900,
+        descripcion: "Nevera Whirlpool French Door 549l Acero Inox Whirlpool",
+        img:
+            "https://http2.mlstatic.com/D_NQ_NP_924914-MCO44013241953_112020-O.webp",
+        cantidad: 1,
+        disponibles: 4,
+    },
+    {
+        id: 36,
+        nombre: "Cocina Electrica ",
+        precio: 31000,
+        descripcion: "Cocina Electrica 1 Puesto Hornilla Hot Plate Jx-1010b",
+        img:
+            "https://http2.mlstatic.com/D_NQ_NP_627028-MCO51616168511_092022-O.webp",
+        cantidad: 1,
+        disponibles: 18,
+    },
+    {
+        id: 37,
+        nombre: "Set 2 Saleros ",
+        precio: 269000,
+        descripcion: "Set De 2 Saleros Pequeños Con Base Pequeña Pimienta Sal",
+        img:
+            "https://http2.mlstatic.com/D_NQ_NP_934607-MCO71393785324_082023-O.webp",
+        cantidad: 1,
+        disponibles: 18,
+    },
+    {
+        id: 38,
+        nombre: "Estufa 2 Puesto",
+        precio: 200000,
+        descripcion: "Estufa 2 Puesto Electrica Moteado Abba Se2001",
+        img:
+            "https://http2.mlstatic.com/D_NQ_NP_741642-MCO43997706671_112020-O.webp",
+        cantidad: 1,
+        disponibles: 7,
+    },
+    {
+        id: 39,
+        nombre: "MiniBar Cr121",
+        precio: 772900,
+        descripcion: "MiniBar Cr121 (121 Lts) Challenger Color Gris 115V",
+        img:
+            "https://http2.mlstatic.com/D_NQ_NP_626096-MLA70745496107_072023-O.webp",
+        cantidad: 1,
+        disponibles: 19,
+    },
+    
 ];
