@@ -210,3 +210,11 @@ font-weight: bold;
 body{
     background-color: rgb(0, 0, 255);
 }
+
+.sumar{
+    cursor: pointer;
+}
+
+.restar{
+    cursor: pointer;
+}

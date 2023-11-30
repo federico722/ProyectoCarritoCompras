@@ -29,18 +29,52 @@ const pintarCarrito = ()=> {
         <h3>${product.nombre}</h3>
         <p>Disponibles:${product.disponibles}<p>  
         <p>COP ${formattedPrecio} </p>
+        <span class="restar">-</span>
         <p>Cantidad: ${product.cantidad}</p>
+        <span class="sumar">+</span>
         <p>Total: ${formattedTotal}</p>
         `; 
 //se agrego product.disponibles
         modalContainer.append(carritoContent);
+
+        let restar = carritoContent.querySelector(".restar")
+
+        restar.addEventListener("click", () => {
+            if(product.cantidad !== 1) {
+                product.cantidad--;
+                product.disponibles++;
+            }
+            
+            pintarCarrito();
+        });
+
+        let sumar = carritoContent.querySelector(".sumar")
+        console.log("Antes del incremento - Cantidad:", product.cantidad, "Disponibles:", product.disponibles);
+        sumar.addEventListener("click", ()=>{
+            if (product.disponibles > 0) {
+                product.cantidad++;
+                product.disponibles--;
+            }else {
+                alert("No hay más disponibles");
+            }
+            console.log("Después del incremento - Cantidad:", product.cantidad, "Disponibles:", product.disponibles);
+            pintarCarrito();
+        });
 
         let eliminar = document.createElement("span");
         eliminar.innerText = "✖️";
         eliminar.className = "delete-product";
         carritoContent.append(eliminar);
 
-        eliminar.addEventListener("click", eliminarProducto);
+       /* eliminar.addEventListener("click", eliminarProducto); */
+    });
+
+    const eliminar =document.querySelectorAll(".delete-product");
+
+    eliminar.forEach((Element, index)=>{
+        Element.addEventListener("click", ()=>{
+            eliminarProducto(index);
+        });
     });
 
     const total= carrito.reduce((acc, el) => acc + el.precio * el.cantidad, 0);
@@ -54,17 +88,29 @@ const pintarCarrito = ()=> {
 
     verCarrito.addEventListener("click", pintarCarrito);
 
-    const eliminarProducto = () => {
-        const foundId = carrito.find((Element) => Element.id);
-
-        carrito = carrito.filter((carritoId) => {
-            return carritoId !==foundId;
-
-        });
+    const eliminarProducto = (index) => {
+        carrito.splice(index, 1);
+    
         carritoCounter();
         saveLocal();
         pintarCarrito();
     };
+
+    /*
+    const eliminarProducto = () => {
+        const foundIndex = carrito.findIndex((Element) => Element.id);
+
+        /* carrito = carrito.filter((carritoId) => {
+            return carritoId !==foundId;
+
+        });*/
+    /*   if (foundIndex !== -1) {
+            carrito.splice(foundIndex, 1);
+        }
+        carritoCounter();
+        saveLocal();
+        pintarCarrito();
+    }; */
 
     const carritoCounter = () => {
         cantidadCarrito.style.display= "block";

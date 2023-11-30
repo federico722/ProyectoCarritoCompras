@@ -181,7 +181,7 @@ const productos =[
     },
     {
         id: 19,
-        nombre: "Vaso Pleglabe De silicona",
+        nombre: "Vaso Pleglabe",
         precio: 12900,
         descripcion: "Vaso Plegable De Silicona Con tapa  Portable Reusable 270 MI",
         img:
