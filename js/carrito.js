@@ -44,7 +44,7 @@ const pintarCarrito = ()=> {
                 product.cantidad--;
                 product.disponibles++;
             }
-            
+            saveLocal();
             pintarCarrito();
         });
 
@@ -58,6 +58,7 @@ const pintarCarrito = ()=> {
                 alert("No hay más disponibles");
             }
             console.log("Después del incremento - Cantidad:", product.cantidad, "Disponibles:", product.disponibles);
+            saveLocal();
             pintarCarrito();
         });
 
@@ -82,7 +83,7 @@ const pintarCarrito = ()=> {
 
     const totalBuying = document.createElement("div");
     totalBuying.className = "total-content";
-    totalBuying.innerHTML = `total a pagar: COP ${formattedPrecio},00`;
+    totalBuying.innerHTML = `Total a Pagar: COP ${formattedPrecio},00`;
     modalContainer.append(totalBuying);
     };
 
