@@ -8,7 +8,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_978062-MLU72761378582_112023-V.webp",
         cantidad : 1,
         disponibles: 3,
-        categoria: "",
+        categoria: "Utensilios de Cocina",
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_804193-MLU72732450147_112023-V.webp",
         cantidad: 1,
         disponibles: 5,
-        categoria: "",
+        categoria: "Utensilios de Cocina",
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_976248-MLU72903413169_112023-V.webp",
         cantidad: 1,
         disponibles: 5,
-        categoria: "",
+        categoria: "Utensilios de Cocina",
     },
     {
         id: 4,
@@ -41,7 +41,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_816437-MLU72728921912_112023-V.webp",
         cantidad: 1,
         disponibles: 5,
-        categoria: "",
+        categoria: "Utensilios de Cocina",
     },
     {
         id: 5,
@@ -52,7 +52,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_662242-MCO53397545485_012023-V.webp",
         cantidad: 1,
         disponibles: 5,
-        categoria: "",
+        categoria: "Utensilios de Cocina",
     },
     {
         id: 6,
@@ -63,7 +63,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_742110-MCO47417533046_092021-V.webp",
         cantidad: 1,
         disponibles: 7,
-        categoria: "",
+        categoria: "Utensilios de Cocina",
     },
     {
         id: 7,
@@ -74,7 +74,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_951506-MCO71441150413_082023-V.webp",
         cantidad: 1,
         disponibles: 10,
-        categoria: "",
+        categoria: "Utensilios de Cocina",
     },
     {
         id: 8,
@@ -85,7 +85,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_897107-MCO50670979200_072022-V.webp",
         cantidad: 1,
         disponibles: 15,
-        categoria: "",
+        categoria: "Utensilios de Cocina",
     },
     {
         id: 9,
@@ -96,7 +96,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_658911-MLU72564209116_112023-V.webp",
         cantidad: 1,
         disponibles: 3,
-        categoria: "",
+        categoria: "Utensilios de Cocina",
     },
     {
         id: 10,
@@ -107,7 +107,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_881543-MLU69425826200_052023-V.webp",
         cantidad: 1,
         disponibles: 10,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 11,
@@ -118,7 +118,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_700980-MLU72637172325_112023-V.webp",
         cantidad: 1,
         disponibles: 18,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 12,
@@ -129,7 +129,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_783159-MCO72537232963_102023-V.webp",
         cantidad: 1,
         disponibles: 7,
-        categoria: "",
+        categoria: "Artículos de Mesa",
     },
     {
         id: 13,
@@ -140,7 +140,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_939976-MCO52215831979_102022-V.webp",
         cantidad: 1,
         disponibles: 10,
-        categoria: "",
+        categoria: "Artículos de Mesa",
     },
     {
         id: 14,
@@ -151,7 +151,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_895480-MCO51757075408_092022-V.webp",
         cantidad: 1,
         disponibles: 15,
-        categoria: "",
+        categoria: "Artículos de Mesa",
     },
     {
         id: 15,
@@ -162,7 +162,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_888691-MCO52647914565_112022-V.webp",
         cantidad: 1,
         disponibles: 20,
-        categoria: "",
+        categoria: "Artículos de Mesa",
     },
     {
         id: 16,
@@ -173,7 +173,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_751679-MLU70331407172_072023-V.webp",
         cantidad: 1,
         disponibles: 2,
-        categoria: "",
+        categoria: "Artículos de Mesa",
     },
     {
         id: 17,
@@ -184,7 +184,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_952495-MLU69367912998_052023-V.webp",
         cantidad: 1,
         disponibles: 30,
-        categoria: "",
+        categoria: "Artículos de Mesa",
     },
     {
         id: 18,
@@ -195,7 +195,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_954745-MLM44726988488_012021-V.webp",
         cantidad: 1,
         disponibles: 10,
-        categoria: "",
+        categoria: "Artículos de Mesa",
     },
     {
         id: 19,
@@ -206,7 +206,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_998786-MCO71788446808_092023-V.webp",
         cantidad: 1,
         disponibles: 10,
-        categoria: "",
+        categoria: "Artículos de Mesa",
     },
     {
         id: 20,
@@ -217,7 +217,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_823049-MLA69220505376_052023-V.webp",
         cantidad: 1,
         disponibles: 20,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 21,
@@ -228,7 +228,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_884358-MLU72566191676_112023-V.webp",
         cantidad: 1,
         disponibles: 5,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 22,
@@ -239,7 +239,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_805445-MLA50496638164_062022-V.webp",
         cantidad: 1,
         disponibles: 12,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 23,
@@ -250,7 +250,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_857672-MLU72700300417_112023-V.webp",
         cantidad: 1,
         disponibles: 10,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 24,
@@ -261,7 +261,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_906902-MLU72628446608_112023-V.webp",
         cantidad: 1,
         disponibles: 5,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 25,
@@ -272,7 +272,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_743729-MLU71517512945_092023-V.webp",
         cantidad: 1,
         disponibles: 14,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 26,
@@ -283,7 +283,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_679638-MCO72996029881_112023-V.webp",
         cantidad: 1,
         disponibles: 19,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 27,
@@ -294,7 +294,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_741104-MLA46306929744_062021-V.webp",
         cantidad: 1,
         disponibles: 10,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 28,
@@ -305,7 +305,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_966431-MCO44882756032_022021-V.webp",
         cantidad: 1,
         disponibles: 6,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 29,
@@ -316,7 +316,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_746723-MCO69510892615_052023-V.webp",
         cantidad: 1,
         disponibles: 15,
-        categoria: "",
+        categoria: "Accesorios de Cocina",
     },
     {
         id: 30,
@@ -327,7 +327,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_2X_763049-MLU71975304052_092023-F.webp",
         cantidad: 1,
         disponibles: 3,
-        categoria: "",
+        categoria: "Utensilios de Cocina",
     },
     {
         id: 31,
@@ -338,7 +338,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_775551-MLU72700361307_112023-O.webp",
         cantidad: 1,
         disponibles: 20,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 32,
@@ -349,7 +349,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_695454-MLU71686761086_092023-O.webp",
         cantidad: 1,
         disponibles: 10,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 33,
@@ -360,7 +360,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_762929-MLU72700918949_112023-O.webp",
         cantidad: 1,
         disponibles: 5,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 34,
@@ -371,18 +371,18 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_713713-MCO53146500821_012023-O.webp",
         cantidad: 1,
         disponibles: 15,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 35,
-        nombre: "Nevera Whirlpool",
-        precio: 6199900,
-        descripcion: "Nevera Whirlpool French Door 549l Acero Inox Whirlpool",
+        nombre: "Nevera No Frost",
+        precio: 1649900,
+        descripcion: "Nevera No Frost 230L Brutos Mabe grafito",
         img:
-            "https://http2.mlstatic.com/D_NQ_NP_924914-MCO44013241953_112020-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_768082-MLA49837685740_052022-F.webp",
         cantidad: 1,
         disponibles: 4,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 36,
@@ -393,7 +393,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_627028-MCO51616168511_092022-O.webp",
         cantidad: 1,
         disponibles: 18,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 37,
@@ -404,7 +404,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_934607-MCO71393785324_082023-O.webp",
         cantidad: 1,
         disponibles: 18,
-        categoria: "",
+        categoria: "Accesorios de Cocina",
     },
     {
         id: 38,
@@ -415,7 +415,7 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_741642-MCO43997706671_112020-O.webp",
         cantidad: 1,
         disponibles: 7,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     {
         id: 39,
@@ -426,52 +426,56 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_626096-MLA70745496107_072023-O.webp",
         cantidad: 1,
         disponibles: 19,
-        categoria: "",
+        categoria: "Electrodomésticos",
     },
     
 
     {
-        id: 31,
-        nombre: "Microondas Shine",
-        precio: 419900,
-        descripcion: "Microondas Shine Con Dorador Con Esmalte Ceramico, 23L ",
+        id: 40,
+        nombre: "Tabla Para Picar",
+        precio: 47405,
+        descripcion: "Tabla Para Picar En Madera Bambu Natural Mediana Con Surcos ",
         img:
-            "https://http2.mlstatic.com/D_NQ_NP_775551-MLU72700361307_112023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_827031-MCO70527135331_072023-F.webp",
         cantidad: 1,
         disponibles: 20,
+        categoria: "Accesorios de Cocina",
     },
     {
-        id: 32,
-        nombre: "Microondas Soft1",
-        precio: 349900,
-        descripcion: "Microondas Soft1 Convencional Con Modo Eco, 23L",
+        id: 41,
+        nombre: "Microondas Toshiba",
+        precio: 281203,
+        descripcion: "Microondas Toshiba TMDA07S2 silver 20L 120V",
         img:
-            "https://http2.mlstatic.com/D_NQ_NP_695454-MLU71686761086_092023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_687590-MLA52624022836_112022-F.webp",
         cantidad: 1,
         disponibles: 10,
+        categoria: "Electrodomésticos",
     },
     {
-        id: 33,
-        nombre: "Microondas Ms32j ",
-        precio: 474900,
-        descripcion: "Microondas Ms32j Black Sin Dorador Capacidad: 1.1 ",
+        id: 42,
+        nombre: "Tabla 4 En 1",
+        precio: 22410,
+        descripcion: "Tabla 4 En 1 Multiuso Bandeja Escurridor Cajón Plegable",
         img:
-            "https://http2.mlstatic.com/D_NQ_NP_762929-MLU72700918949_112023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_876271-MCO49658487017_042022-F.webp",
         cantidad: 1,
         disponibles: 5,
+        categoria: "Accesorios de Cocina",
     },
     {
-        id: 34,
-        nombre: "Estufa A Gas",
-        precio: 869900,
-        descripcion: "Estufa A Gas 4 Puestos Challenger Tipo de Conexion a Gas Natural",
+        id: 43,
+        nombre: "Estufa De Mesa ",
+        precio: 274900,
+        descripcion: "Estufa De Mesa Avellana T Gas Natural Plata Haceb Color Plateado",
         img:
-            "https://http2.mlstatic.com/D_NQ_NP_713713-MCO53146500821_012023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_951207-MLU72492780148_102023-F.webp",
         cantidad: 1,
         disponibles: 15,
+        categoria: "Electrodomésticos",
     },
     {
-        id: 35,
+        id: 44,
         nombre: "Nevera Whirlpool",
         precio: 6199900,
         descripcion: "Nevera Whirlpool French Door 549l Acero Inox Whirlpool",
@@ -479,46 +483,52 @@ const productos =[
             "https://http2.mlstatic.com/D_NQ_NP_924914-MCO44013241953_112020-O.webp",
         cantidad: 1,
         disponibles: 4,
+        categoria: "Electrodomésticos",
     },
     {
-        id: 36,
-        nombre: "Cocina Electrica ",
-        precio: 31000,
-        descripcion: "Cocina Electrica 1 Puesto Hornilla Hot Plate Jx-1010b",
+        id: 45,
+        nombre: "Estufa De Empotrar ",
+        precio: 1509900,
+        descripcion: "Estufa De Empotrar Challenger Acero 5 Puestos Sv 6875 Ei",
         img:
-            "https://http2.mlstatic.com/D_NQ_NP_627028-MCO51616168511_092022-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_960313-MLU72416622693_102023-F.webp",
         cantidad: 1,
         disponibles: 18,
+        categoria: "Electrodomésticos",
     },
     {
-        id: 37,
-        nombre: "Set 2 Saleros ",
-        precio: 269000,
-        descripcion: "Set De 2 Saleros Pequeños Con Base Pequeña Pimienta Sal",
+        id: 46,
+        nombre: "Set 12 Utensilios",
+        precio: 63500,
+        descripcion: "Set 12 Utensilios De Cocina Silicona Resistente Calor Juego",
         img:
-            "https://http2.mlstatic.com/D_NQ_NP_934607-MCO71393785324_082023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_887283-MCO52308674677_112022-F.webp",
         cantidad: 1,
         disponibles: 18,
+        categoria: "Accesorios de Cocina",
     },
     {
-        id: 38,
-        nombre: "Estufa 2 Puesto",
-        precio: 200000,
-        descripcion: "Estufa 2 Puesto Electrica Moteado Abba Se2001",
+        id: 47,
+        nombre: "Estufa Eléctrica",
+        precio: 230900,
+        descripcion: "Estufa Eléctrica De 2 Puestos Challenger - Ref. Sp 5002 220v",
         img:
-            "https://http2.mlstatic.com/D_NQ_NP_741642-MCO43997706671_112020-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_640597-MLU72275953168_102023-F.webp",
         cantidad: 1,
         disponibles: 7,
+        categoria: "Electrodomésticos",
     },
     {
-        id: 39,
-        nombre: "MiniBar Cr121",
-        precio: 772900,
-        descripcion: "MiniBar Cr121 (121 Lts) Challenger Color Gris 115V",
+        id: 48,
+        nombre: "Mini Nevera ",
+        precio: 196860,
+        descripcion: "Mini Nevera Portatil 4l Snack2go Masterchef By Hukën Negro",
         img:
-            "https://http2.mlstatic.com/D_NQ_NP_626096-MLA70745496107_072023-O.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_958435-MCO69223179946_052023-F.webp",
         cantidad: 1,
         disponibles: 19,
+        categoria: "Electrodomésticos",
     },
     
 ];
+

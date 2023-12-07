@@ -1,12 +1,10 @@
-//eliminar productos 
-// manejar cantidad 
-// agregar un contador de productos en el navbar
-
 
 const shopContent = document.getElementById("shopContent");
 const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container");
 const cantidadCarrito = document.getElementById("cantidadCarrito");
+
+/*agrego categotia */
 
 
 let carrito= JSON.parse(localStorage.getItem("carrito")) || [];
@@ -71,9 +69,17 @@ productos.forEach((product)=>{
 
 /*set item */
 const saveLocal = ()=> {
+    try {
     localStorage.setItem("carrito", JSON.stringify(carrito));
+    console.log("Productos guardados en localStorage:", productos);
+} catch (error) {
+    console.error("Error al guardar productos en localStorage:", error);
+}
 };
 
 
-/*get item*/ 
+
+
+
+
 

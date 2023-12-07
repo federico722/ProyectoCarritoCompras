@@ -97,21 +97,6 @@ const pintarCarrito = ()=> {
         pintarCarrito();
     };
 
-    /*
-    const eliminarProducto = () => {
-        const foundIndex = carrito.findIndex((Element) => Element.id);
-
-        /* carrito = carrito.filter((carritoId) => {
-            return carritoId !==foundId;
-
-        });*/
-    /*   if (foundIndex !== -1) {
-            carrito.splice(foundIndex, 1);
-        }
-        carritoCounter();
-        saveLocal();
-        pintarCarrito();
-    }; */
 
     const carritoCounter = () => {
         cantidadCarrito.style.display= "block";
