@@ -25,7 +25,7 @@ const pintarCarrito = ()=> {
         let total= product.cantidad *product.precio;
         let formattedTotal=total.toLocaleString();
         carritoContent.innerHTML = `
-        <img src="${product.img}">
+        <img class="style_img1" src="${product.img}">
         <h3>${product.nombre}</h3>
         <p>Disponibles:${product.disponibles}<p>  
         <p>COP ${formattedPrecio} </p>
